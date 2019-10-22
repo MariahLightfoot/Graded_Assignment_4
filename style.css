@@ -36,24 +36,59 @@ ul li{
 
 ul li a{
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     color: black;
     padding: 0 20px;
 }
 
 .wrapper {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 40% 60%;
 }
 
-.aboutMe{
-
+#aboutMe{
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.projects{
-
+#projects{
     background-color: rgb(245, 227, 231);
 }
+
+#projects h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.button1, .button2, .button3{
+    border: 1px solid black;
+    background: white;
+    font-size: 13px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.button1{
+    padding: 10px 63px;
+}
+
+.button2{
+    padding: 10px 30px;
+}
+
+.button3{
+    padding: 10px 33px;
+    margin-bottom: 20px;
+}
+
+.button1:hover, .button2:hover, .button3:hover{
+    color: blue;
+}
+
 
