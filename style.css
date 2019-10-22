@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
    }
@@ -8,8 +8,6 @@
 #firstAndLastName{
     font-style: italic;
     text-align: center;
-    display: inline;
-
 }
 
 h1{
@@ -21,36 +19,41 @@ h1{
 h2{
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 00px;
+    margin-bottom: 0px;
     font-size: 20px;
 }
 
 nav{
     width: 100%;
-    height: 100px;
-    text-align: center;
+    height: 50px;
 }
 
 ul li{
     list-style: none;
-    display: inline-block;
-    line-height: 100px;
-    float: left;
+    line-height: 50px;
+    float: right;
 }
 
 ul li a{
-    font-weight: 00;
+    font-weight: 400;
     font-size: 14px;
     color: black;
     padding: 0 20px;
 }
 
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
 .aboutMe{
-    display: inline;
-    float: left;
+
+    font-weight: 300;
+    font-size: 14px;
 }
 
 .projects{
-    display: inline;
-    float: right;
+
+    background-color: rgb(245, 227, 231);
 }
+
