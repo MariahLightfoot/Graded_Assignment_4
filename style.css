@@ -100,7 +100,7 @@ ul li a:hover{
     display: grid;
     grid-template-columns: 50% 50%;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .testimonialPicture{
@@ -119,8 +119,13 @@ ul li a:hover{
     font-style: italic;
     color: gray;
     padding-left: 125px;
+    margin: 10px;
   }
 
   .name{
-      padding-bottom: 0px;
+      margin-bottom: 0px;
+  }
+
+  .relation{
+      margin-top: 5px;
   }
