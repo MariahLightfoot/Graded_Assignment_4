@@ -35,27 +35,31 @@ ul li{
 }
 
 ul li a{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     color: black;
     padding: 0 20px;
 }
 
-.wrapper {
+ul li a:hover{
+    color:blue;
+}
+
+.wrapperAroundAboutMeandProjects{
     display: grid;
     grid-template-columns: 40% 60%;
 }
 
 #aboutMe{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
 }
 
-#projects{
+.projects{
     background-color: rgb(245, 227, 231);
 }
 
-#projects h3{
+.projects h3{
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
@@ -92,4 +96,31 @@ ul li a{
     color: blue;
 }
 
+.wrapperAroundTestimonials{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: 400;
+    font-size: 14px;
+}
 
+.testimonialPicture{
+    border-radius: 50%;
+    float: left;
+
+  }
+
+.blurb{
+    padding-left: 125px;
+}
+
+  .name, .relation{
+    font-weight: 300;
+    font-size: 14px;
+    font-style: italic;
+    color: gray;
+    padding-left: 125px;
+  }
+
+  .name{
+      padding-bottom: 0px;
+  }
